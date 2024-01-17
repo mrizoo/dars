@@ -1,0 +1,88 @@
+/* work-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/work-sans-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* work-sans-600 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/work-sans-v19-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* work-sans-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/work-sans-v19-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body , html {
+    height: 100%;
+}
+ 
+
+body {
+    width: 1440px;
+    height: 900px;
+    background: var(--Light-Pink, #F8EEFF);    
+    font-family: 'Work Sans',sans-serif;
+    background-color: black;
+    display: flex;
+    flex-shrink: 0;
+}
+
+
+.card {
+   
+    flex-direction: column;
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--Dark-Purple, #301534);    
+}
+
+
+.card-body {
+    margin-top: 400px;
+    padding: 40PX;
+    width: 600px;
+    gap: 32px;
+    border-radius: 16px;
+    background-color:var(--White, #FFF) ;
+    box-shadow: 0px 32px 56px 0px rgba(80, 0, 118, 0.10); ;
+}
+
+
+.card-title {
+    display: inline-block;
+    padding-left: 24px;
+    font-size: 56px;
+    font-weight: 700;
+    margin-bottom: 32px;     
+}
+
+
+.frontend {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--Dark-Purple, #301534);
+}
+
